@@ -164,11 +164,20 @@ main > .section:first-child {
 .col-large  {
     background-color: #1e90ff;
     flex-grow: 2;
+    max-width: 635px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 0px;
+}
+
+.col-large img {
+    max-height: 350px;
 }
 
 .col-small {
     background-color: #ffc0cb;
     flex-grow: 1;
+    max-width: 330px;
 }
 
 main > .section:nth-child(3),
