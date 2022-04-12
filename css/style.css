@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;        
+}
+
+header {
+    background-color: #255EE9;
+    min-height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+footer {
+    background-color: #23272a;
+    min-height: 550px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+
+hr {
+    border: 1px solid white;    
+    margin: 30px 0;    
+}
+
+#fifth {
+    background-color: #228b22;
+    min-height: 580px;
+    border: 2px dashed black;
+}
+
+#boxcol {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header-container {
+    background-color: #255EE9;
+    min-height: 38px;
+    min-width: 960px;
+    display: flex;
+    align-items: stretch;
+}
+
+.zona-logo, .zona-login {
+    width: 20%;
+}
+
+.navbar {
+    width: 60%;    
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+}
+
+.header-container > div {
+    border: 2px dashed black;
+    display: flex;
+    align-items: center;
+    padding: 4px 3px 4px;
+}
+
+.zona-login {
+    justify-content: flex-end;
+}
+
+.btn-small {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.7rem;
+    border-radius: 30px;
+    border: none;
+}
+
+.section {
+    padding: 35px 200px;
+    display: flex;
+    align-items: center;
+}
+
+main > .section:first-child {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 585px;
+    border-bottom: 3px solid #add8e6;
+}
+
+.first-container {
+    background-color: #ee82ee;
+    min-height: 240px;
+    min-width: 750px;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;    
+}
+
+.box {
+    display: flex;    
+    min-height: 310px;
+    border: 2px dashed black;
+}
+
+.col {
+    padding: 1rem;
+}
+
+.col-large  {
+    background-color: #1e90ff;
+    flex-grow: 2;
+}
+
+.col-small {
+    background-color: #ffc0cb;
+    flex-grow: 1;
+}
+
+main > .section:nth-child(3),
+main > .section:nth-child(5) {
+    background-color: #d3d3d3;
+}
+
+.maxicol, .fourcol {
+    min-height: 400px;    
+}
+
+.maxicol {
+    background-color: #f08080;
+    flex-grow: 1;
+    border: 2px dashed black;
+}
+
+.fourcol {
+    background-color: #20b2aa;
+    display: flex;
+    flex-grow: 2.7;    
+}
+
+.tinycol {
+    width: 25%;
+    border: 2px dashed white;
+}
+
+.bottombar {
+    background-color: #7fffd4;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    max-width: 960px;
+    margin-bottom: 0px;
+}
