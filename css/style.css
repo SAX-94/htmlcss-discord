@@ -6,7 +6,7 @@
 
 body {
     margin: 0 auto;
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;        
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 header {
@@ -26,17 +26,17 @@ h1 {
 
 p {
     padding-bottom: 1.4rem;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 .section h3 {
-    padding-bottom: 1.8rem;
+    padding-bottom: 2.4rem;
 }
 
 footer {
     background-color: #23272a;
     min-height: 550px;
-    padding-top: 6px;
+    padding-top: 4rem;
     padding-bottom: 0px;
 }
 
@@ -48,6 +48,11 @@ hr {
 
 #third-sec-pad {
     padding-left: 5rem;
+}
+
+#fifth-title {
+    margin-left: 8.1rem;
+    margin-right: 8.1rem;
 }
 
 #fifth {    
@@ -62,6 +67,7 @@ hr {
 #boxcol {
     max-width: 960px;
     margin: 0 auto;
+    min-height: 350px;
 }
 
 .header-container {
@@ -129,7 +135,7 @@ main > .section:first-child {
     border: 2px dashed black;
     margin: 0 auto;
     text-align: center;
-    padding: 0 16rem;
+    padding: 0 21rem;
 }
 
 .first-container h1 {
@@ -177,10 +183,9 @@ main > .section:first-child {
     padding: 1rem;
 }
 
-.col-large  {
-    background-color: #1e90ff;
+.col-large  {    
     flex-grow: 2;
-    max-width: 635px;
+    max-width: 640px;
     display: flex;
     align-items: flex-start;
     padding-top: 0px;
@@ -192,6 +197,7 @@ main > .section:first-child {
 
 [src="img/item1.svg"] {
     margin-top: -1rem;
+    margin-left: -3.5rem;
 }
 
 [src="img/item3.svg"] {
@@ -199,8 +205,7 @@ main > .section:first-child {
     margin-left: -2.2rem;
 }
 
-.col-small {
-    background-color: #ffc0cb;
+.col-small {    
     flex-grow: 1;
     max-width: 330px;
 }
@@ -215,11 +220,6 @@ main > .section:nth-child(5) {
     align-items: center;    
 }
 
-.section h1:first-child {
-    margin-left: 8.1rem;
-    margin-right: 8.1rem;
-}
-
 .parfive {
     margin-left: 9rem;
     margin-right: 9rem;
@@ -230,25 +230,49 @@ main > .section:nth-child(5) {
     min-height: 400px;    
 }
 
-.maxicol {
-    background-color: #f08080;
+.maxicol {    
     flex-grow: 1;
     border: 2px dashed black;
+    max-width: 306px;
+    padding-right: 3rem;
 }
 
-.fourcol {
-    background-color: #20b2aa;
+.maxicol img {
+    line-height: normal;
+}
+
+.language {
+    line-height: 1rem;
+    padding-bottom: 1rem;
+}
+
+[src="img/ita.png"] {
+    max-height: 1rem;
+}
+
+.fourcol {    
     display: flex;
-    flex-grow: 2.7;    
+    flex-grow: 12;
+    font-size: 0.9rem;
 }
 
 .tinycol {
     width: 25%;
+    display: flex;
+    flex-direction: column;
     border: 2px dashed white;
+    line-height: 1.8rem;
 }
 
-.bottombar {
-    background-color: #7fffd4;
+footer h2,h4 {
+    color: #7087d6;
+}
+
+footer h2 {
+    padding-bottom: 1.8rem;
+}
+
+.bottombar {    
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -259,7 +283,7 @@ main > .section:nth-child(5) {
 }
 
 [src="img/stars.svg"] {
-    max-width: 380px;
+    max-width: 470px;
     margin-bottom: -12px;
     margin-left: -10px;
 }
@@ -267,4 +291,28 @@ main > .section:nth-child(5) {
 .section button:nth-child(6) {
     background-color: #8ea1e1;
     color: white;
+    margin-top: 2rem;
+}
+
+.language span {
+    color: white;
+}
+
+.fa-brands {
+    color: white;
+    padding: 0.6rem;
+}
+
+.fa-twitter {
+    padding-left: 0;
+}
+
+.tinycol span {
+    color: white;
+}
+
+.bottombar .btn-small {
+    color: white;
+    background-color: #8ea1e1;
+    font-weight: 600;
 }
