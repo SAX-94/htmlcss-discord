@@ -211,12 +211,12 @@ main > .section:first-child {
     max-width: 330px;
 }
 
-main > .section:nth-child(3),
-main > .section:nth-child(5) {
+.thirdsection,
+.fifthsection {
     background-color: #f6f6f6;
 }
 
-main > .section:nth-child(5) {
+.fifthsection {
     flex-direction: column;
     align-items: center;    
 }
