@@ -1,3 +1,7 @@
+button {
+    cursor: pointer;
+}
+
 svg {
     display: block;
 }
@@ -5,3 +9,22 @@ svg {
 .wave-rotated {
     transform: rotate(180deg);
 }
+
+.hover-blue:hover {
+    color: #255EE9;    
+}
+
+#hover-black:hover {
+    background-color: #36393F;
+} /* è stato necessario assegnare un id
+al button in questione affinché avesse
+una specificità superiore al selettore
+che gli fornisce il background-color */
+
+#hover-azure1:hover {
+    background-color: #6c7fc0;
+} /* stesso discorso di specificità */
+
+#hover-azure2:hover {
+    background-color: #6c7fc0;
+} /* stesso discorso di specificità */
