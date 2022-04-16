@@ -1,0 +1,7 @@
+svg {
+    display: block;
+}
+
+.wave-rotated {
+    transform: rotate(180deg);
+}
