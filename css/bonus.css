@@ -11,11 +11,13 @@ svg {
 }
 
 .hover-blue:hover {
-    color: #255EE9;    
+    color: #255EE9;
+    box-shadow: 2px 8px 15px rgba(0,0,0,0.2);
 }
 
 #hover-black:hover {
     background-color: #36393F;
+    box-shadow: 2px 8px 15px rgba(0,0,0,0.2);
 } /* è stato necessario assegnare un id
 al button in questione affinché avesse
 una specificità superiore al selettore
@@ -23,8 +25,10 @@ che gli fornisce il background-color */
 
 #hover-azure1:hover {
     background-color: #6c7fc0;
+    box-shadow: 2px 8px 15px rgba(0,0,0,0.2);
 } /* stesso discorso di specificità */
 
 #hover-azure2:hover {
     background-color: #6c7fc0;
+    box-shadow: 2px 8px 15px rgba(0,0,0,0.2);
 } /* stesso discorso di specificità */
