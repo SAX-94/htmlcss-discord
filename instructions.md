@@ -1,7 +1,7 @@
 Ciao Ragazzi,
 Esercizio di oggi:
 
-### cartella/repo htmlcss-discord
+### Cartella/repo htmlcss-discord
 
 Copiamo il lavoro di ieri in una nuova repo, attenzione, non duplicate l’intera cartella, altrimenti copierete anche le impostazioni di git!
 Nel repo nuovo incolliamo solo index.html, css/style.css e cartella img/ con le immagini.
