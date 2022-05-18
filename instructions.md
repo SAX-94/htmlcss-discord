@@ -14,7 +14,9 @@ Creiamo delle classi riutilizzabili individuando gli elementi ricorrenti nel lay
 Consigli
 Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi a tutti i possibili viewport. Se comunque riusciamo almeno a lavorare già un po’ con unità relative senza però crearci nuove difficoltà, tanto meglio.
 Partite comunque sempre semplici, non focalizzandovi su parti/soluzioni complesse, semmai le affronterete in un secondo momento.
+
 BONUS
+
 Da fare in un file separato, copiando index.html e chiamatelo bonus.html, mentre per il css, caricare quello generale e poi tramite un secondo css chiamato bonus.css inserite gli stili necessari.
 Aggiungere le wave nelle 2 sezioni che ce l’hanno “Dove trovarsi..” sopra e sotto, “Tecnologia affidabile..” sopra
 Riprodurre gli effetti di hover come su sito reale (anche nette, senza animazioni-transizioni)
